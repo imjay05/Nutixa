@@ -37,7 +37,9 @@ Security Layer: Custom JWT Filters and Role-Based Access Control (RBAC).
 ## Project Structure
 
 
-```text Nutixa/ ├── fitness/ │ ├── API_Test_ScreenShots/ │ ├── src/main/java/com/project/fitness/ │ │ ├── config/
+```text
+
+Nutixa/ ├── fitness/ │ ├── API_Test_ScreenShots/ │ ├── src/main/java/com/project/fitness/ │ │ ├── config/
 
 │ │ │ └── OpenApiConfig.java │ │ ├── controller/
 
