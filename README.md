@@ -49,6 +49,14 @@ Automated Deployment: Fully containerized logic ready for Docker and cloud envir
 Data Integrity: Robust validation using Jakarta Validation and global exception handling.
 
 
+## 📖 API Documentation (Swagger)
+
+The project includes fully interactive documentation using Swagger UI. This allows for real-time testing of endpoints without external tools.
+
+Live Documentation: https://nutrixa-fit.onrender.com/swagger-ui/index.html
+
+Base URL: https://nutrixa-fitness.onrender.com
+
 
 ## 📊 Database Schema (ER Diagram)
 
