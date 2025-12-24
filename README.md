@@ -38,30 +38,52 @@ Security Layer: Custom JWT Filters and Role-Based Access Control (RBAC).
 
 
 ```text
-
-Nutixa/ ├── fitness/ │ ├── API_Test_ScreenShots/ │ ├── src/main/java/com/project/fitness/ │ │ ├── config/
-
-│ │ │ └── OpenApiConfig.java │ │ ├── controller/
-
-│ │ │ ├── ActivityController.java │ │ │ ├── AuthController.java │ │ │ ├── PublicController.java │ │ │ └── RecommendationsController.java │ │ ├── dto/
-
-│ │ │ ├── ActivityRequest.java │ │ │ ├── ActivityResponse.java │ │ │ ├── LoginRequest.java │ │ │ ├── LoginResponse.java │ │ │ ├── RecommendationRequest.java │ │ │ └── RegisterRequest.java │ │ ├── exceptions/
-
-│ │ │ └── GlobalExceptionHandler.java │ │ ├── model/
-
-│ │ │ ├── Activity.java │ │ │ ├── ActivityType.java │ │ │ ├── Recommendations.java │ │ │ ├── User.java │ │ │ └── UserRole.java │ │ ├── repository/
-
-│ │ │ ├── ActivityRepository.java │ │ │ ├── RecommendationRepository.java │ │ │ └── UserRepository.java │ │ ├── security/
-
-│ │ │ ├── CustomUserDetailsService.java │ │ │ ├── JwtAuthenticationFilter.java │ │ │ ├── JwtUtils.java │ │ │ └── SecurityConfig.java │ │ ├── services/
-
-│ │ │ ├── ActivityService.java │ │ │ ├── RecommendationService.java │ │ │ └── UserService.java │ │ └── FitnessApplication.java │ ├── resources/ │ │ └── application.properties │ ├── Dockerfile
-
-│ └── pom.xml
-
-├── .gitignore
-
-└── README.md
+Nutixa/
+├── fitness/
+│   ├── API_Test_ScreenShots/     # API validation proof
+│   ├── src/main/java/com/project/fitness/
+│   │   ├── config/               # API Configurations
+│   │   │   └── OpenApiConfig.java
+│   │   ├── controller/           # REST Endpoints
+│   │   │   ├── ActivityController.java
+│   │   │   ├── AuthController.java
+│   │   │   ├── PublicController.java
+│   │   │   └── RecommendationsController.java
+│   │   ├── dto/                  # Data Transfer Objects
+│   │   │   ├── ActivityRequest.java
+│   │   │   ├── ActivityResponse.java
+│   │   │   ├── LoginRequest.java
+│   │   │   ├── LoginResponse.java
+│   │   │   ├── RecommendationRequest.java
+│   │   │   └── RegisterRequest.java
+│   │   ├── exceptions/           # Global Error Handling
+│   │   │   └── GlobalExceptionHandler.java
+│   │   ├── model/                # JPA Entities (Database Tables)
+│   │   │   ├── Activity.java
+│   │   │   ├── ActivityType.java
+│   │   │   ├── Recommendations.java
+│   │   │   ├── User.java
+│   │   │   └── UserRole.java
+│   │   ├── repository/           # Database Communication
+│   │   │   ├── ActivityRepository.java
+│   │   │   ├── RecommendationRepository.java
+│   │   │   └── UserRepository.java
+│   │   ├── security/             # JWT & Spring Security Logic
+│   │   │   ├── CustomUserDetailsService.java
+│   │   │   ├── JwtAuthenticationFilter.java
+│   │   │   ├── JwtUtils.java
+│   │   │   └── SecurityConfig.java
+│   │   ├── services/             # Business Logic Layer
+│   │   │   ├── ActivityService.java
+│   │   │   ├── RecommendationService.java
+│   │   │   └── UserService.java
+│   │   └── FitnessApplication.java # Main Entry Point
+│   ├── resources/
+│   │   └── application.properties # App Configurations
+│   ├── Dockerfile                # Deployment Config
+│   └── pom.xml                   # Maven Dependencies
+├── .gitignore                    # Git Ignore rules
+└── README.md                     # Project Documentation
 
 ```
 
