@@ -10,7 +10,7 @@ Language: Java 21 (LTS)
 
 Framework: Spring Boot 4.0.1 (Spring Security, Spring Data JPA)
 
-Database: MYSQL and PostgreSQL (Cloud-hosted via Neon DB)
+Database: Developed using MySQL for local testing and migrated to PostgreSQL (via Neon DB) for production deployment.
 
 Security: JSON Web Tokens (JWT) with Stateless Session Management
 
