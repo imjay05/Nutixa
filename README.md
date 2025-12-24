@@ -43,7 +43,7 @@ Data Integrity: Robust validation using Jakarta Validation and global exception 
 
 Getting Started
 
-Clone the Repo: git clone https://github.com/your-username/nutrixa-fit-backend.git
+Clone the Repo: git clone https://github.com/imjay05/Nutixa/tree/main/fitness
 
 Environment Variables: Create an application.properties and add your DB_URL, DB_PWD, DB_USER .
 
