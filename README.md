@@ -48,4 +48,5 @@ Clone the Repo: https://github.com/imjay05/Nutixa
 Environment Variables: Create an application.properties and add your DB_URL, DB_PWD, DB_USER .
 
 Run: ./mvnw package 
+
 spring-boot:run
