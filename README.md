@@ -47,4 +47,5 @@ Clone the Repo: git clone https://github.com/your-username/nutrixa-fit-backend.g
 
 Environment Variables: Create an application.properties and add your DB_URL, DB_PWD, DB_USER .
 
-Run: ./mvnw spring-boot:run
+Run: ./mvnw package 
+spring-boot:run
