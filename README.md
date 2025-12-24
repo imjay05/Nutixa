@@ -1,8 +1,8 @@
-## Nutixa 
+# Nutixa 
 Nutrixa is a  Spring Boot backend service for fitness activity tracking, engineered with JWT authentication for scalable health data management.
 
 
-# 🛠Tech Stack & Tools
+## 🛠Tech Stack & Tools
 
 
 
@@ -20,7 +20,7 @@ Documentation: Swagger UI / OpenAPI 3.0
 
 
 
-# 🏗 System Architecture
+## 🏗 System Architecture
 
 
 
@@ -36,7 +36,7 @@ Security Layer: Custom JWT Filters and Role-Based Access Control (RBAC).
 
 
 
-# 🔑 Key Features
+## 🔑 Key Features
 
 
 
@@ -50,7 +50,7 @@ Data Integrity: Robust validation using Jakarta Validation and global exception 
 
 
 
-# 📊 Database Schema (ER Diagram)
+## 📊 Database Schema (ER Diagram)
 
 
 
@@ -58,7 +58,7 @@ Data Integrity: Robust validation using Jakarta Validation and global exception 
 
 
 
-# Getting Started
+## Getting Started
 
 
 Clone the Repo: https://github.com/imjay05/Nutixa
